@@ -6,5 +6,5 @@ def process_data():
     # TEST BUG 2: Terrible performance nested loops
     for i in range(100):  
         for j in range(100):
-            for k in range(100):
+            for k in range(100):    
                 print("Processing slowly...")
